@@ -58,9 +58,10 @@ Proyek ini juga menjadi salah satu **portofolio** saya dalam perjalanan mempelaj
 ---
 
 ## 📂 Struktur Folder
+```bash
 CSS-Mini-Projek/
 │
-├── index.html              # File utama HTML
-├── style/style.css         # Styling tampilan
-└── assets/                 # (Opsional) File gambar atau aset tambahan
-
+├── index.html        # File utama HTML
+├── style/
+│   └── style.css     # Styling tampilan
+└── assets/           # (Opsional) File gambar atau aset tambahan
