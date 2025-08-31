@@ -1,4 +1,5 @@
 # CSS-Mini-Project-MySkill
+## 🌐 Personal Portfolio Website 
 
 > Website portofolio sederhana menggunakan **HTML** dan **CSS** sebagai hasil pembelajaran dari **Frontend CSS di MySkill**.  
 > Proyek ini menjadi latihan sekaligus portofolio untuk menampilkan skill dan pengalaman kerja.
@@ -56,7 +57,7 @@ Proyek ini juga menjadi salah satu **portofolio** saya dalam perjalanan mempelaj
 
 ---
 
-📂 Struktur Folder
+##📂 Struktur Folder
 portfolio-website/
 │
 ├── index.html        # File utama HTML
