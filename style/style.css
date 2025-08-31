@@ -1,0 +1,165 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+}
+
+header {
+    background: rgb(131, 58, 180);
+        background: linear-gradient(
+            90deg,
+            rgba(131, 58, 180, 1) 0%,
+            rgba(253, 29, 29, 1) 50%,
+            rgba(252, 176, 69, 1) 100%
+        );
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 2px rgba(84, 43, 111, 0.485);
+    transition: all;
+    transition-duration: 1s;
+}
+
+.img-profile:hover {
+    margin-left: -10px;
+}
+
+.img-profile-holder {
+    flex: 1;
+    text-align: center;
+}
+
+.holder-detail {
+    flex: 2;
+}
+
+.name-profile {
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+}
+
+.title-profile {
+    color: white;
+    font-size: 36px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    font-family: "Roboto Slab", serif;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.btn.download {
+    background-color: #e6e9ed;
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+}
+
+.btn.hire {
+    background-color: #37bc9b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.subcontent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+
+.barcontainer {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(235, 233, 233);
+    border-radius: 20px;
+    position: relative;
+}
+
+.barfilling {
+    height: 20px;
+    /* position: absolute; */
+    border-radius: 20px;
+}
+
+.green {
+    background-color: aquamarine;
+    width: 80%;
+}
+
+.orange {
+    background-color: rgb(245, 173, 113);
+    width: 75%;
+}
+
+.purple {
+    background-color: rgb(245, 113, 225);
+    width: 70%;
+}
+
+.red {
+    background-color: rgb(210, 70, 70);
+    width: 85%;
+}
+
+.blue {
+    background-color: rgb(56, 72, 163);
+    width: 90%;
+}
+
+ul.work-exp li {
+    font-size: 20px;
+    padding: 10px 0;
+    list-style-type: circle;
+}
+
+ul.work-exp li:first-child {
+    padding-top: 0;
+    /* memberi padding 0 pada child yang pertama */
+}
+
+ul.work-exp li:nth-child(odd) {
+    background-color: aliceblue;
+    /* memberi warna yang berbeda tiap item list yang ganji (odd) atau genap (even) */
+}
+
+span strong {
+    color: #1eb574;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+.footer-holder {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footer-name {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
